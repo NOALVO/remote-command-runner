@@ -1,0 +1,32 @@
+{
+  "name": "remote-command-runner",
+  "version": "1.0.0",
+  "description": "A command runner to run any shell command to a remote machine using a pub/sub Redis.",
+  "main": "emitter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOALVO/remote-command-runner.git"
+  },
+  "keywords": [
+    "shell",
+    "remote",
+    "command",
+    "pubsub",
+    "redis"
+  ],
+  "author": "Gustavo Gondim (mailto:gustavo@midianoalvo.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NOALVO/remote-command-runner/issues"
+  },
+  "homepage": "https://github.com/NOALVO/remote-command-runner#readme",
+  "dependencies": {
+    "get-machine-info": "^1.0.0",
+    "node-redis-pubsub": "^4.0.0",
+    "redis": "^2.8.0",
+    "redis-simple-connect": "^1.0.0"
+  }
+}
